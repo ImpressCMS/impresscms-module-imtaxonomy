@@ -1,0 +1,5 @@
+<ul>
+<{foreach item=tags_by_month from=$block.tags_by_months}>
+	<li><a href="<{$xoops_url}>/modules/imtagging/index.php?y=<{$tags_by_month.tags_year}>&m=<{$tags_by_month.tags_month}>"><{$tags_by_month.tags_month_name}> <{$tags_by_month.tags_year}> (<{$tags_by_month.tags_count}>)</li></a>
+<{/foreach}>
+</ul>

@@ -1,0 +1,20 @@
+<{includeq file='db:imtagging_header.html'}>
+
+<{if $imtagging_tag}>
+	<{includeq file='db:imtagging_single_tag.html'}>
+<{else}>
+	<{foreach item=imtagging_tag from=$imtagging_tags}>
+		<{includeq file='db:imtagging_single_tag.html'}>
+	<{/foreach}>
+<{/if}>
+
+<{if $imtagging_tagform}>
+	<{includeq file='db:system_common_form.html' form=$imtagging_tagform}>
+<{/if}>
+
+<{if $icmspersistable_delete_confirm}>
+	<{$icmspersistable_delete_confirm}>
+<{/if}>
+
+
+<{includeq file='db:imtagging_footer.html'}>

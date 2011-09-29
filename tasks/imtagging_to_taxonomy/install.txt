@@ -1,0 +1,19 @@
+/**
+* Install information
+*
+* @copyright	http://smartfactory.ca The SmartFactory
+* @license		http://www.gnu.org/licenses/old-licenses/gpl-2.0.html GNU General Public License (GPL)
+* @since		1.0
+* @author		marcan aka Marc-André Lanciault <marcan@smartfactory.ca>
+* @version		$Id$
+*/
+
+How to install imTagging
+=============================
+
+imTagging is installed as a regular ImpressCMS module, which means you should copy the complete /imtagging folder into the /modules directory of your website. Then, log in to your site as administrator, go to System Admin > Modules, look for the imTagging icon in the list of uninstalled modules and click in the install icon. Follow the directions in the screen and you'll be ready to go.
+
+
+.:: The SmartFactory ::.
+.:: Open Source : smartfactory.ca ::.
+.:: Professionnal : inboxinternational.com ::.

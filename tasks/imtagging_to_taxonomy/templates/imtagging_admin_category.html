@@ -1,0 +1,22 @@
+<{if $imtagging_category_title}>
+	<h1><{$imtagging_category_title}></h1>
+<{/if}>
+<{if $imtagging_category_info}>
+	<p><{$imtagging_category_info}></p><
+<{/if}>
+
+<{if $imtagging_category_table}>
+	<{$imtagging_category_table}>
+<{/if}>
+
+<{if $imtagging_category_singleobject}>
+	<{$imtagging_category_singleobject}>
+<{/if}>
+
+<{if $imtagging_category_link_table}>
+	<{$imtagging_category_link_table}>
+<{/if}>
+
+<{if $addcategory}>
+	<{includeq file='db:system_common_form.html' form=$addcategory}>
+<{/if}>
